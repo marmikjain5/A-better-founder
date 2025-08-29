@@ -9,6 +9,7 @@ import FmcgPage from './pages/FmcgPage';
 import FoodPage from './pages/FoodPage';
 import ClothingPage from './pages/ClothingPage';
 import ContactPage from './pages/ContactPage';
+import AiAssistantPage from './pages/AiAssistantPage'; 
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/food" element={<FoodPage />} />
             <Route path="/clothing" element={<ClothingPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/ai-assistant" element={<AiAssistantPage />} />
           </Routes>
         </main>
         <Footer />
